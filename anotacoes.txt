@@ -1,0 +1,6 @@
+o projeto irá utilizar o método CRISP 
+
+objetivo: Utilizar machine learning para prever o repasse do FPM
+
+O primeiro ciclo é sobre montar o pipeline completo, entender o problema
+montar as métricas de avaliação para metrificar se os atos futuros irá melhorar ou não a solução.
