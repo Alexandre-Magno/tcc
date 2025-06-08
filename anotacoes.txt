@@ -4,3 +4,23 @@ objetivo: Utilizar machine learning para prever o repasse do FPM
 
 O primeiro ciclo é sobre montar o pipeline completo, entender o problema
 montar as métricas de avaliação para metrificar se os atos futuros irá melhorar ou não a solução.
+
+
+Métricas utilizadas
+
+MAE
+MAPE
+RMSE
+MPE
+
+
+Links uteis:
+
+dados:
+https://www.tesourotransparente.gov.br/consultas/transferencias-constitucionais-realizadas
+
+cartilhas: 
+https://www.tesourotransparente.gov.br/publicacoes/cartilhas-sobre-transferencias-intergovernamentais-atualizadas/2018/26
+
+previsão Tesouro nacional: 
+https://www.tesourotransparente.gov.br/publicacoes/previsao-mensal-e-trimestral-do-fpm-fpe-e-ipi-ex/2025/5
