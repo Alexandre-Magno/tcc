@@ -2,18 +2,6 @@ o projeto irá utilizar o método CRISP
 
 objetivo: Utilizar machine learning para prever o repasse do FPM
 
-O primeiro ciclo é sobre montar o pipeline completo, entender o problema
-montar as métricas de avaliação para metrificar se os atos futuros irá melhorar ou não a solução.
-
-
-Métricas utilizadas
-
-MAE
-MAPE
-RMSE
-MPE
-
-
 Links uteis:
 
 dados:
@@ -23,4 +11,40 @@ cartilhas:
 https://www.tesourotransparente.gov.br/publicacoes/cartilhas-sobre-transferencias-intergovernamentais-atualizadas/2018/26
 
 previsão Tesouro nacional: 
+
 https://www.tesourotransparente.gov.br/publicacoes/previsao-mensal-e-trimestral-do-fpm-fpe-e-ipi-ex/2025/5
+
+
+# Ciclo 01
+O primeiro ciclo é sobre montar o pipeline completo, entender o problema
+montar as métricas de avaliação para metrificar se os atos futuros irá melhorar ou não a solução.
+
+Métricas utilizadas
+
+MAE
+MAPE
+RMSE
+MPE
+
+
+Criamos o modelo base, sendo um modelo de média 
+com os dados de 
+Dados de treino com range de data:  1996-01-01  a 2019-05-01 
+Dados de teste com range de data:  2019-06-01  a 2025-04-01 
+
+# Ciclo 02
+
+Introdução a modelos de Machine learning e modo de avaliação "cross validation"
+
+Modelos introduzidos:
+- LinearRegression
+- Lasso
+- RandomForestRegressor
+- KNeighborsRegressor
+- CatBoostRegressor
+- XGBRegressor
+
+
+ao final do ciclo 2, nenhum modelo foi capaz de vencer nosso baseline na avaliação sem cross validation
+
+
